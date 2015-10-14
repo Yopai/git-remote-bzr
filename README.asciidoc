@@ -6,8 +6,16 @@ repositories as if they were Git ones:
 git clone "bzr::lp:ubuntu/hello"
 --------------------------------------
 
-To enable this, simply add the 'git-remote-bzr' script anywhere in your
-`$PATH`:
+== Installation ==
+
+* First check that the python library 'bzrlib' installed.
+If needed, run :
+
+--------------------------------------
+sudo aptitude install python-bzrlib
+--------------------------------------
+
+* Then, simply add the 'git-remote-bzr' script anywhere in your `$PATH`:
 
 --------------------------------------
 wget https://raw.github.com/felipec/git-remote-bzr/master/git-remote-bzr -O ~/bin/git-remote-bzr
